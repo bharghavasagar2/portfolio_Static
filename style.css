@@ -1,0 +1,138 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+header img {
+  max-width: 100%;
+  height: 3em;
+  margin-right: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #6c639a;
+  padding: 12px;
+  margin: 10px;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #f7f7f7;
+  margin-left: 34em;
+  font-family: cursive;
+}
+.links-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d1f9;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.links-section a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.links-section a:hover {
+  background-color: #bf69a1;
+  color: #fff;
+}
+.parent-main-section {
+  display: inline-flex;
+  height: fit-content;
+}
+.sidebar {
+  max-width: 25%;
+  background: #2f3c7e;
+  padding: 20px;
+  padding-right: 6em;
+  padding-left: 4em;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+.sidebar h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: #ffffff;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+.main-section {
+  width: 75%;
+  padding: 10px;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+.main-section h1 {
+  background-image: radial-gradient(#200763, #222d2e);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 36px;
+  margin-top: 0;
+  margin: 10px;
+}
+
+.my-picture {
+  height: 50%;
+  width: 100%;
+  margin: 10px;
+  margin-top: 0;
+}
+.main-heading-text {
+  color: #7d6b6b;
+  font-size: 1.6rem;
+}
+.about-me {
+  margin: 0 0 0.5em;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  color: #1b1b1b;
+}
+
+footer {
+  background-color: #03083a;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 300;
+}
+footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #008cba;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
